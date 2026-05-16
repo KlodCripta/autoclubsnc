@@ -224,8 +224,26 @@ a { color: inherit; text-decoration: none; }
 .hero-content {
   position: relative;
   z-index: 1;
-  padding-top: 88px;
+  padding-top: 40px;
   max-width: 680px;
+}
+
+.hero-brand {
+  font-family: var(--font-head);
+  font-size: clamp(48px, 8vw, 96px);
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.hero-brand span {
+  font-size: 0.38em;
+  vertical-align: middle;
+  color: var(--white);
+  letter-spacing: 3px;
+  font-weight: 400;
 }
 
 .hero-tag {
