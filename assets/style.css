@@ -229,21 +229,23 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-brand {
-  font-family: var(--font-head);
-  font-size: clamp(48px, 8vw, 96px);
-  font-weight: 700;
+  font-family: 'Arial Black', 'Arial Bold', 'Helvetica Neue', sans-serif;
+  font-size: clamp(42px, 7vw, 88px);
+  font-weight: 900;
   color: var(--red);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .hero-brand span {
-  font-size: 0.38em;
+  font-size: 0.32em;
   vertical-align: middle;
-  color: var(--white);
-  letter-spacing: 3px;
-  font-weight: 400;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-left: 4px;
 }
 
 .hero-tag {
