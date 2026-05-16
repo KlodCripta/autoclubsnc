@@ -206,8 +206,8 @@ a { color: inherit; text-decoration: none; }
   background-image: url('../officina1.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.22;
-  filter: grayscale(40%);
+  opacity: 0.42;
+  filter: grayscale(30%);
 }
 
 .hero-bg::after {
@@ -222,6 +222,16 @@ a { color: inherit; text-decoration: none; }
   z-index: 1;
   padding-top: 88px;
   max-width: 680px;
+}
+
+.hero-logo {
+  margin-bottom: 32px;
+}
+
+.hero-logo img {
+  height: 90px;
+  width: auto;
+  display: block;
 }
 
 .hero-tag {
