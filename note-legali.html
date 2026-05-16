@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <title>Note Legali — Autoclub S.N.C.</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Torna alla Home">
+      <img src="assets/img/logo.png" alt="Autoclub SNC Logo">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#chi-siamo">Chi Siamo</a></li>
+      <li><a href="index.html#servizi">Servizi</a></li>
+      <li><a href="index.html#contatti">Contatti</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Apri menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main class="policy-page">
+  <div class="container" style="max-width:800px">
+
+    <a href="index.html" class="back-link">&#8592; Torna alla Home</a>
+
+    <h1>Note Legali</h1>
+    <p class="updated">Ultimo aggiornamento: maggio 2025</p>
+
+    <h2>1. Proprietà del sito</h2>
+    <p>
+      Il sito web <strong>autoclubsnc.it</strong> è di proprietà di:
+    </p>
+    <p>
+      <strong>AUTOCLUB S.N.C.</strong><br>
+      Officina multimarca di Tella Lorenzo &amp; Pastore Angelo<br>
+      Via Gallarate, 388 — 20151 Milano MI<br>
+      Partita IVA: 12003000150<br>
+      Codice SDI: SUBM70N<br>
+      Iscritta al Registro delle Imprese di Milano — REA: MI–1518707<br>
+      Email: <a href="mailto:info@autoclubsnc.it">info@autoclubsnc.it</a><br>
+      Telefono: <a href="tel:0233910891">02 3391 0891</a>
+    </p>
+
+    <h2>2. Scopo del sito</h2>
+    <p>
+      Il presente sito ha carattere puramente informativo e vetrina. Non è prevista la
+      vendita di prodotti o servizi online né la raccolta di dati personali tramite moduli
+      di contatto o sistemi di registrazione.
+    </p>
+
+    <h2>3. Proprietà intellettuale</h2>
+    <p>
+      Tutti i contenuti presenti sul sito — testi, immagini, loghi e grafica — sono di
+      proprietà esclusiva di Autoclub S.N.C. o concessi in uso con regolare licenza,
+      e sono protetti dalla normativa italiana ed europea in materia di diritto d'autore
+      (L. 633/1941 e successive modifiche) e diritti di proprietà intellettuale.
+    </p>
+    <p>
+      È vietata la riproduzione, la distribuzione, la modifica o l'utilizzo dei contenuti
+      del sito, anche parziale, senza previa autorizzazione scritta del Titolare.
+    </p>
+
+    <h2>4. Esclusione di responsabilità</h2>
+    <p>
+      Autoclub S.N.C. si impegna a mantenere le informazioni presenti sul sito accurate
+      e aggiornate, ma non garantisce la completezza, la correttezza o l'attualità dei
+      contenuti. Il Titolare declina ogni responsabilità per eventuali danni diretti o
+      indiretti derivanti dall'utilizzo o dall'impossibilità di utilizzo del sito.
+    </p>
+    <p>
+      Il sito può contenere link a siti web di terze parti. Autoclub S.N.C. non è
+      responsabile del contenuto, delle politiche sulla privacy né delle pratiche di tali
+      siti e non ne approva necessariamente i contenuti.
+    </p>
+
+    <h2>5. Legge applicabile e foro competente</h2>
+    <p>
+      Il presente sito e le presenti Note Legali sono regolati dalla legge italiana. Per
+      qualsiasi controversia è competente in via esclusiva il Foro di Milano.
+    </p>
+
+    <h2>6. Hosting</h2>
+    <p>
+      Il sito è ospitato tramite il servizio <strong>GitHub Pages</strong> (GitHub Inc.,
+      88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Per informazioni sul
+      trattamento dei dati da parte di GitHub si rimanda alla
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+         target="_blank" rel="noopener noreferrer">Privacy Statement di GitHub</a>.
+    </p>
+
+  </div>
+</main>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none; padding-top:0">
+      <p class="footer-copy">&copy; 2025 Autoclub S.N.C. — Tutti i diritti riservati.</p>
+      <nav class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="cookie.html">Cookie Policy</a>
+        <a href="note-legali.html">Note Legali</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
