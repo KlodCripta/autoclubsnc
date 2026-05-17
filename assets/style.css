@@ -163,16 +163,18 @@ a { color: inherit; text-decoration: none; }
 }
 
 .btn-maps {
-  background: #E8720C;
-  color: var(--white);
+  background: transparent;
+  color: #E8720C;
   border: 2px solid #E8720C;
 }
 
 .btn-maps:hover {
-  background: #c75e08;
-  border-color: #c75e08;
+  background: #E8720C;
+  color: var(--white);
   transform: translateY(-1px);
 }
+
+.btn-outline {
   background: transparent;
   color: var(--white);
   border: 2px solid var(--white);
@@ -681,6 +683,9 @@ a { color: inherit; text-decoration: none; }
 .footer-brand img {
   height: 44px;
   margin-bottom: 14px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  padding: 3px;
 }
 
 .footer-brand p {
