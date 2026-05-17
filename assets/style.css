@@ -343,14 +343,15 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-logo-main {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  margin-left: -40px;
 }
 
 .hero-logo-main img {
   height: auto;
-  width: clamp(360px, 58vw, 720px);
+  width: clamp(380px, 62vw, 780px);
   display: block;
-  margin-left: 0;
+  mix-blend-mode: lighten;
 }
 
 .hero-title {
