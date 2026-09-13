@@ -1003,3 +1003,14 @@ a { color: inherit; text-decoration: none; }
   opacity: 1;
   transform: translateY(0);
 }
+.klodex-credit {
+  color: #d71920;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.klodex-credit:hover,
+.klodex-credit:focus-visible {
+  color: #ff3b47;
+}
