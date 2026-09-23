@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Forza HTTPS e dominio senza www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.autoclubsnc\.it$ [NC]
+RewriteRule ^ https://autoclubsnc.it%{REQUEST_URI} [R=301,L]
